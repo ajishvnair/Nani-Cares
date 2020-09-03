@@ -1,0 +1,63 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+.heading-block h1, .heading-block h2, .heading-block h3, .heading-block h4, .emphasis-title h1, .emphasis-title h2 {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #228b22!important;
+}
+.heading-block:after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 80px!important;
+    border-top: 4px solid #228b22!important;
+}
+.feature-box h3 {
+    font-size: 16px!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #228b22!important;
+}
+.change{
+	color: #96ea34!important;
+}
+.dark .section, .section.dark {
+    background-color: #010800!important;
+    border-color: rgba(255,255,255,0.1);
+}
+.slider-caption p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400!important;
+}
+#primary-menu ul li > a {
+    
+	color: #549608!important;
+font-size: 16px!important;
+}
+primary-menu ul li:hover > a, #primary-menu ul li.current > a {
+	color: #212529!important;
+}
+.parallax1 {
+    background-color: transparent;
+/*    background-attachment: unset;*/
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+	will-change: transform;}
+
+.mfp-figure figure {
+    margin: 0;
+    background-color: white!important;
+}
