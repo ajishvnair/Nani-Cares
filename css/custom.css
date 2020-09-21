@@ -5,59 +5,160 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
-.heading-block h1, .heading-block h2, .heading-block h3, .heading-block h4, .emphasis-title h1, .emphasis-title h2 {
+.heading-block h1,
+.heading-block h2,
+.heading-block h3,
+.heading-block h4,
+.emphasis-title h1,
+.emphasis-title h2 {
     margin-bottom: 0;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #228b22!important;
+    color: #228b22 !important;
 }
 .heading-block:after {
-    content: '';
+    content: "";
     display: block;
     margin-top: 30px;
-    width: 80px!important;
-    border-top: 4px solid #228b22!important;
+    width: 80px !important;
+    border-top: 4px solid #228b22 !important;
 }
 .feature-box h3 {
-    font-size: 16px!important;
+    font-size: 16px !important;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0;
-    color: #228b22!important;
+    color: #228b22 !important;
 }
-.change{
-	color: #96ea34!important;
+.change {
+    color: #96ea34 !important;
 }
-.dark .section, .section.dark {
-    background-color: #010800!important;
-    border-color: rgba(255,255,255,0.1);
+.dark .section,
+.section.dark {
+    background-color: #010800 !important;
+    border-color: rgba(255, 255, 255, 0.1);
 }
 .slider-caption p {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 24px;
-    font-weight: 400!important;
+    font-weight: 400 !important;
 }
 #primary-menu ul li > a {
-    
-	color: #549608!important;
-font-size: 16px!important;
+    color: #549608 !important;
+    font-size: 16px !important;
 }
-primary-menu ul li:hover > a, #primary-menu ul li.current > a {
-	color: #212529!important;
+primary-menu ul li:hover > a,
+#primary-menu ul li.current > a {
+    color: #212529 !important;
 }
 .parallax1 {
     background-color: transparent;
-/*    background-attachment: unset;*/
+    /*    background-attachment: unset;*/
     background-position: 50% 0;
     background-repeat: no-repeat;
     overflow: hidden;
-	will-change: transform;}
+    will-change: transform;
+}
 
 .mfp-figure figure {
     margin: 0;
-    background-color: white!important;
+    background-color: white !important;
+}
+.mod1 {
+    margin-top: -120px !important;
+    height: 500px !important;
+}
+.mod2 {
+    height: 542px !important;
+    margin-top: -100px !important;
+}
+.mod3 {
+    height: 520px !important;
+    margin-top: -90px !important;
+}
+.mod4 {
+    height: 542px !important;
+    margin-top: -70px !important;
+}
+.mod5 {
+    height: 542px !important;
+    margin-top: -70px !important;
+}
+.mod6 {
+    height: 270px !important;
+    margin-top: 42px !important;
+}
+.mod7,
+.mod8 {
+    height: 542px !important;
+    margin-top: -70px !important;
+}
+
+.mod9 {
+    height: 537px !important;
+    margin-top: -63px !important;
+}
+.mod10 {
+    margin-top: 0px !important;
+    height: 542px !important;
+}
+@media only screen and (max-width: 600px) {
+    .mod1,
+    .mod2,
+    .mod3,
+    .mod4,
+    .mod4,
+    .mod5,
+    .mod7,
+    .mod8,
+    .mod9,
+    .mod10 {
+        margin-top: auto !important;
+        height: 597px !important;
+    }
+    .mod6 {
+        margin-top: auto !important;
+        height: 286px !important;
+    }
+    .mod7 {
+        margin-top: auto !important;
+        height: 615px !important;
+    }
+}
+@media (max-width: 991px) {
+    body:not(.dark)
+        #header:not(.dark)
+        #header-wrap:not(.dark)
+        #primary-menu
+        > ul
+        > li:hover
+        a,
+    body:not(.dark)
+        #header:not(.dark)
+        #header-wrap:not(.dark)
+        #primary-menu
+        > ul
+        > li.current
+        a,
+    body:not(.dark)
+        #header:not(.dark)
+        #header-wrap:not(.dark)
+        #primary-menu
+        > div
+        > ul
+        > li:hover
+        a,
+    body:not(.dark)
+        #header:not(.dark)
+        #header-wrap:not(.dark)
+        #primary-menu
+        > div
+        > ul
+        > li.current
+        a {
+        color: #212529 !important;
+    }
 }
